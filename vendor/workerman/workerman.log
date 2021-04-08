@@ -1,0 +1,19 @@
+2021-04-08 07:05:19 pid:70716 Workerman[http_test.php] start in DEBUG mode
+2021-04-08 07:10:07 pid:70716 Workerman[http_test.php] stopping ...
+2021-04-08 07:10:07 pid:70716 Workerman[http_test.php] has been stopped
+2021-04-08 07:10:09 pid:70747 Workerman[http_test.php] start in DEBUG mode
+2021-04-08 07:13:58 pid:70747 Workerman[http_test.php] stopping ...
+2021-04-08 07:13:58 pid:70747 Workerman[http_test.php] has been stopped
+2021-04-08 07:14:04 pid:70758 Workerman[http_test.php] reload 
+2021-04-08 07:14:04 pid:70758 Workerman[http_test.php] not run
+2021-04-08 07:14:17 pid:70759 Workerman[http_test.php] connections 
+2021-04-08 07:14:17 pid:70759 Workerman[http_test.php] not run
+2021-04-08 07:14:19 pid:70760 Workerman[http_test.php] connections 
+2021-04-08 07:14:19 pid:70760 Workerman[http_test.php] not run
+2021-04-08 07:39:16 pid:71062 Workerman[http_test.php] start in DEBUG mode
+2021-04-08 07:40:10 pid:71136 Workerman[http_test.php] connections 
+2021-04-08 08:07:37 pid:71062 Workerman[http_test.php] stopping ...
+2021-04-08 08:07:37 pid:71062 Workerman[http_test.php] has been stopped
+2021-04-08 08:07:52 pid:71378 Workerman[start.php] start in DEBUG mode
+2021-04-08 08:09:34 pid:71378 Workerman[start.php] stopping ...
+2021-04-08 08:09:34 pid:71378 Workerman[start.php] has been stopped
