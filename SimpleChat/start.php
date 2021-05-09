@@ -20,7 +20,11 @@ function handle_message($connection, $data)
     global $text_worker;
     foreach($text_worker->connections as $conn)
     {
-        $conn->send("user[{$connection->uid}] said: $data");
+
+        for ($i = 0; $i < 100; $i++) {
+            $conn->send("user[{$connection->uid}] said: $data" . " Number:{$i}");
+            sleep(1);
+        }
     }
 }
 

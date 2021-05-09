@@ -4,8 +4,89 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "243d0c7286b13d5e9fb86ca4b396fa8a",
+    "content-hash": "81b026e6ac2a1d3b282e85c1b4b6fd51",
     "packages": [
+        {
+            "name": "gongyao/testcomposer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gongyao1992/testcomposer.git",
+                "reference": "d728e0d65796ae880015f2a795db02adb84b6dac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gongyao1992/testcomposer/zipball/d728e0d65796ae880015f2a795db02adb84b6dac",
+                "reference": "d728e0d65796ae880015f2a795db02adb84b6dac",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gongyao\\Testcomposer\\": "./"
+                }
+            },
+            "authors": [
+                {
+                    "name": "gongyao",
+                    "email": "gongyao1992@qq.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/gongyao1992/testcomposer/tree/main",
+                "issues": "https://github.com/gongyao1992/testcomposer/issues"
+            },
+            "time": "2021-05-09T12:02:17+00:00"
+        },
+        {
+            "name": "workerman/crontab",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/crontab.git",
+                "reference": "1a37a941e53ca09e9f10f34132001d624cde96da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/crontab/zipball/1a37a941e53ca09e9f10f34132001d624cde96da",
+                "reference": "1a37a941e53ca09e9f10f34132001d624cde96da",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0",
+                "workerman/workerman": ">=3.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\Crontab\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A crontab written in PHP based on workerman",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "crontab"
+            ],
+            "time": "2021-02-02T12:29:44+00:00"
+        },
         {
             "name": "workerman/workerman",
             "version": "v4.0.19",
@@ -18,7 +99,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/walkor/Workerman/zipball/af6025976fba817eeb4d5fbf8d0c1059a5819da3",
                 "reference": "af6025976fba817eeb4d5fbf8d0c1059a5819da3",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3"
@@ -56,7 +143,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "gongyao/testcomposer": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

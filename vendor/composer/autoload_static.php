@@ -9,14 +9,27 @@ class ComposerStaticInitfe09506de4268eced09c0a37a450a386
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
+            'Workerman\\Crontab\\' => 18,
             'Workerman\\' => 10,
+        ),
+        'G' => 
+        array (
+            'Gongyao\\Testcomposer\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Workerman\\Crontab\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/crontab/src',
+        ),
         'Workerman\\' => 
         array (
             0 => __DIR__ . '/..' . '/workerman/workerman',
+        ),
+        'Gongyao\\Testcomposer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gongyao/testcomposer',
         ),
     );
 
