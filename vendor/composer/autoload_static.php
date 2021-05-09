@@ -12,6 +12,14 @@ class ComposerStaticInitfe09506de4268eced09c0a37a450a386
             'Workerman\\Crontab\\' => 18,
             'Workerman\\' => 10,
         ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
         'G' => 
         array (
             'Gongyao\\Testcomposer\\' => 21,
@@ -26,6 +34,14 @@ class ComposerStaticInitfe09506de4268eced09c0a37a450a386
         'Workerman\\' => 
         array (
             0 => __DIR__ . '/..' . '/workerman/workerman',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'Gongyao\\Testcomposer\\' => 
         array (

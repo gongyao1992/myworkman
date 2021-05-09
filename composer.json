@@ -17,7 +17,7 @@
     "require": {
         "workerman/workerman": "^4.0",
         "workerman/crontab": "^1.0",
-        "gongyao/testcomposer": "dev-main"
+        "gongyao/testcomposer": "^1.0"
     },
     "description": ""
 }
