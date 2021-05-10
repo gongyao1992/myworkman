@@ -22,6 +22,7 @@ class ComposerStaticInitfe09506de4268eced09c0a37a450a386
         ),
         'G' => 
         array (
+            'Gongyao\\Testcomposer\\Pinyin\\' => 28,
             'Gongyao\\Testcomposer\\' => 21,
         ),
     );
@@ -42,6 +43,10 @@ class ComposerStaticInitfe09506de4268eced09c0a37a450a386
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Gongyao\\Testcomposer\\Pinyin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gongyao/testcomposer/pinyin',
         ),
         'Gongyao\\Testcomposer\\' => 
         array (

@@ -1,28 +1,30 @@
 [
     {
         "name": "gongyao/testcomposer",
-        "version": "1.0.3",
-        "version_normalized": "1.0.3.0",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/gongyao1992/testcomposer.git",
-            "reference": "d34c552d233545d84285eb6d3bca7658efefcce9"
+            "reference": "dbcce3cd7b63dae23efad2a56f1bd214e63332ca"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/gongyao1992/testcomposer/zipball/d34c552d233545d84285eb6d3bca7658efefcce9",
-            "reference": "d34c552d233545d84285eb6d3bca7658efefcce9",
+            "url": "https://api.github.com/repos/gongyao1992/testcomposer/zipball/dbcce3cd7b63dae23efad2a56f1bd214e63332ca",
+            "reference": "dbcce3cd7b63dae23efad2a56f1bd214e63332ca",
             "shasum": ""
         },
         "require": {
+            "ext-mbstring": "*",
             "monolog/monolog": "^2.2"
         },
-        "time": "2021-05-09T16:08:07+00:00",
+        "time": "2021-05-10T13:58:41+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "Gongyao\\Testcomposer\\": "./"
+                "Gongyao\\Testcomposer\\": "./",
+                "Gongyao\\Testcomposer\\Pinyin\\": "./pinyin"
             }
         },
         "authors": [
@@ -32,7 +34,7 @@
             }
         ],
         "support": {
-            "source": "https://github.com/gongyao1992/testcomposer/tree/main",
+            "source": "https://github.com/gongyao1992/testcomposer/tree/1.1.0",
             "issues": "https://github.com/gongyao1992/testcomposer/issues"
         }
     },

@@ -10,5 +10,6 @@ return array(
     'Workerman\\' => array($vendorDir . '/workerman/workerman'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Gongyao\\Testcomposer\\Pinyin\\' => array($vendorDir . '/gongyao/testcomposer/pinyin'),
     'Gongyao\\Testcomposer\\' => array($vendorDir . '/gongyao/testcomposer'),
 );
